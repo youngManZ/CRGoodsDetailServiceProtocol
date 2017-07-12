@@ -13,7 +13,6 @@
 		33D882261F1612A6003F08FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D882241F1612A6003F08FC /* Main.storyboard */; };
 		33D882281F1612A6003F08FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D882271F1612A6003F08FC /* Assets.xcassets */; };
 		33D8822B1F1612A6003F08FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D882291F1612A6003F08FC /* LaunchScreen.storyboard */; };
-		33D882341F1612BC003F08FC /* CRGoodsDetailServiceProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D882331F1612BC003F08FC /* CRGoodsDetailServiceProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +26,7 @@
 		33D882271F1612A6003F08FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33D8822A1F1612A6003F08FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33D8822C1F1612A6003F08FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33D882321F1612BC003F08FC /* CRGoodsDetailServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGoodsDetailServiceProtocol.h; sourceTree = "<group>"; };
-		33D882331F1612BC003F08FC /* CRGoodsDetailServiceProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRGoodsDetailServiceProtocol.m; sourceTree = "<group>"; };
+		33D882361F161772003F08FC /* CRGoodsDetailServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGoodsDetailServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +59,11 @@
 		33D8821A1F1612A6003F08FC /* CRGoodsDetailServiceProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				33D882351F161772003F08FC /* CRGoodsDetailServiceProtocol */,
 				33D8821E1F1612A6003F08FC /* AppDelegate.h */,
 				33D8821F1F1612A6003F08FC /* AppDelegate.m */,
 				33D882211F1612A6003F08FC /* ViewController.h */,
 				33D882221F1612A6003F08FC /* ViewController.m */,
-				33D882321F1612BC003F08FC /* CRGoodsDetailServiceProtocol.h */,
-				33D882331F1612BC003F08FC /* CRGoodsDetailServiceProtocol.m */,
 				33D882241F1612A6003F08FC /* Main.storyboard */,
 				33D882271F1612A6003F08FC /* Assets.xcassets */,
 				33D882291F1612A6003F08FC /* LaunchScreen.storyboard */,
@@ -82,6 +79,14 @@
 				33D8821C1F1612A6003F08FC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33D882351F161772003F08FC /* CRGoodsDetailServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				33D882361F161772003F08FC /* CRGoodsDetailServiceProtocol.h */,
+			);
+			path = CRGoodsDetailServiceProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +160,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D882341F1612BC003F08FC /* CRGoodsDetailServiceProtocol.m in Sources */,
 				33D882231F1612A6003F08FC /* ViewController.m in Sources */,
 				33D882201F1612A6003F08FC /* AppDelegate.m in Sources */,
 				33D8821D1F1612A6003F08FC /* main.m in Sources */,
@@ -313,6 +317,7 @@
 				33D882311F1612A6003F08FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

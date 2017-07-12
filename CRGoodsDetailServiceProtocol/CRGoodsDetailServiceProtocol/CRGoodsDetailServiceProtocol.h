@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface CRGoodsDetailServiceProtocol : NSObject
+@protocol CRGoodsDetailServiceProtocol <NSObject>
+
+@required;
 
 - (UIViewController *)goodsDetailViewControllerWithGoodsId:(NSString*)goodsId goodsName:(NSString *)goodsName;
 
